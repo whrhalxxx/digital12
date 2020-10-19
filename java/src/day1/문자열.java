@@ -1,30 +1,31 @@
 package day1;
 
-public class ¹®ÀÚ¿­ {
+public class ë¬¸ìì—´ {
 
 	public static void main(String[] args) {
-		// ¹®ÀÚ´Â 1±ÛÀÚ, ¹®ÀÚ¿­À» 0±ÛÀÚÀÌ»ó
-		// ¹®ÀÚ´Â À¯´ÏÄÚµåÇ¥¿¡ ÀÖ´Â °ª¿¡ µû¶ó ÀúÀåµÈ´Ù.
+		// ë¬¸ìëŠ” 1ê¸€ì, ë¬¸ìì—´ì„ 0ê¸€ìì´ìƒ
+		// ë¬¸ìëŠ” ìœ ë‹ˆì½”ë“œí‘œì— ìˆëŠ” ê°’ì— ë”°ë¼ ì €ì¥ëœë‹¤.
 		char ch = 'A';
-		//¹®ÀÚ A¿¡ ´ëÇÑ À¯´ÏÄÚµå °ªÀÌ Ãâ·Â
-		System.out.println(int)ch;
-		ch = '°¡';
-		//¹®ÀÚ °¡¿¡ ´ëÇÑ À¯´ÏÄÚµå °ªÀÌ Ãâ·Â
-		System.out.println¤Á;
+		//ë¬¸ì Aì— ëŒ€í•œ ìœ ë‹ˆì½”ë“œ ê°’ì´ ì¶œë ¥
+		System.out.println();
+		System.out.println((int)ch);
+		ch = 'ê°€';
+		//ë¬¸ì ê°€ì— ëŒ€í•œ ìœ ë‹ˆì½”ë“œ ê°’ì´ ì¶œë ¥
+		System.out.println();
 		
 	
 		ch = (char)66;
-		//66¿¡ ÀÏÄ¡ÇÏ´Â À¯Æ¼ÄÚµå Ãâ·Â
+		//66ì— ì¼ì¹˜í•˜ëŠ” ìœ í‹°ì½”ë“œ ì¶œë ¥
 		System.out.println(ch);
 		System.out.println("-------------------"); 
 	
 	
-		//¹®ÀÚ¿­À» ÀúÀåÇÏ±â À§ÇÑ Å¬·¡½º String
-		//¹®ÀÚ¿­ ''°¡ ¾Æ´Ñ ""¸¦ ÀÌ¿ë
+		//ë¬¸ìì—´ì„ ì €ì¥í•˜ê¸° ìœ„í•œ í´ë˜ìŠ¤ String
+		//ë¬¸ìì—´ ''ê°€ ì•„ë‹Œ ""ë¥¼ ì´ìš©
 		String str ="";
-		System.out.println("¹®ÀÚ¿­:"+str);
-		str = "¾È³çÇÏ¼¼¿ä";
-		System.out.println("¹®ÀÚ¿­:"+str);
+		System.out.println("ë¬¸ìì—´:"+str);
+		str = "ì•ˆë…•í•˜ì„¸ìš”";
+		System.out.println("ë¬¸ìì—´:"+str);
 		
 
 

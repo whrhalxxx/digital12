@@ -1,44 +1,44 @@
 package day1;
 
-public class º¯¼ö {
+public class ë³€ìˆ˜ {
 
 	public static void main(String[] args) {
-		//º¯¼ö ¼±¾ð ¹æ¹ý
-        //º¯¼öÅ¸ÀÔ º¯¼ö¸í; 
+		//ë³€ìˆ˜ ì„ ì–¸ ë°©ë²•
+        //ë³€ìˆ˜íƒ€ìž… ë³€ìˆ˜ëª…; 
 		char ch;// 
 		int num1;
 		long num2;
 		float num3;
 		double num4;
 		boolean bool;
-		int appleCount;//º¯¼öÀÇ ÀÌ¸§Àº ÀÇ¹ÌÀÖ°Ô
-		//int ch;//Áßº¹ ¼±¾ð ºÒ°¡ 
-		//º¯¼ö ¼±¾ð ¹× ÃÊ±âÈ­ ¹æ¹ý
-		//º¯¼öÅ¸ÀÔ º¯¼ö¸í = °ª;
-		//¹®ÀÚ´Â ÇÑ±ÛÀÚ¸¦ ÀÇ¹Ì, ¹®ÀÚ´Â ¾ÕµÚ·Î ''¸¦ ºÙÀÎ´Ù 
+		int appleCount;//ë³€ìˆ˜ì˜ ì´ë¦„ì€ ì˜ë¯¸ìžˆê²Œ
+		//int ch;//ì¤‘ë³µ ì„ ì–¸ ë¶ˆê°€ 
+		//ë³€ìˆ˜ ì„ ì–¸ ë° ì´ˆê¸°í™” ë°©ë²•
+		//ë³€ìˆ˜íƒ€ìž… ë³€ìˆ˜ëª… = ê°’;
+		//ë¬¸ìžëŠ” í•œê¸€ìžë¥¼ ì˜ë¯¸, ë¬¸ìžëŠ” ì•žë’¤ë¡œ ''ë¥¼ ë¶™ì¸ë‹¤ 
 		char cha1 = 'A';
 		char cha2 = '1';
-		char cha3 = 'ÇÑ';
+		char cha3 = 'í•œ';
 		char cha4 = '\'';
 		char cha5 = '_';
 		
-		int numb1 = 10;      //½ÊÁø¼ö 10À» ÀúÀå
-		int numb2 = 010;     //8Áø¼ö 10À» ÀúÀå =>10Áø¼ö 8
-		int numb3 = 0x10;    //16Áø¼ö 10À» ÀúÀå =>10Áø¼ö 16
+		int numb1 = 10;      //ì‹­ì§„ìˆ˜ 10ì„ ì €ìž¥
+		int numb2 = 010;     //8ì§„ìˆ˜ 10ì„ ì €ìž¥ =>10ì§„ìˆ˜ 8
+		int numb3 = 0x10;    //16ì§„ìˆ˜ 10ì„ ì €ìž¥ =>10ì§„ìˆ˜ 16
 	
 		//int numb4 = 123456789012;
 		
-		//±âº» Á¤¼ö°ªÀº intÇüÀ¸·Î ÀÎ½ÄÀÌ µÈ´Ù.
-		//Å« ¼öÀÇ °æ¿ì intÇüÀ¸·Î Ç¥ÇöÇÒ ¼ö ¾ø´Â °æ¿ì 
-		//¿¡·¯°¡ ¹ß»ýÇÑ´Ù.		
-		//longÀº Á¢¹Ì»ç LÀ» ¾µ ¼ö ÀÖ´Âµ¥
-		//Å« ¼ö¸¦ ´Ù·ê ¶§¿¡´Â ²À ½á¾ßÇÑ´Ù.
-		//long num5 =123456789012; //¿¡·¯ ¹ß»ý
+		//ê¸°ë³¸ ì •ìˆ˜ê°’ì€ intí˜•ìœ¼ë¡œ ì¸ì‹ì´ ëœë‹¤.
+		//í° ìˆ˜ì˜ ê²½ìš° intí˜•ìœ¼ë¡œ í‘œí˜„í•  ìˆ˜ ì—†ëŠ” ê²½ìš° 
+		//ì—ëŸ¬ê°€ ë°œìƒí•œë‹¤.		
+		//longì€ ì ‘ë¯¸ì‚¬ Lì„ ì“¸ ìˆ˜ ìžˆëŠ”ë°
+		//í° ìˆ˜ë¥¼ ë‹¤ë£° ë•Œì—ëŠ” ê¼­ ì¨ì•¼í•œë‹¤.
+		//long num5 =123456789012; //ì—ëŸ¬ ë°œìƒ
 
 		long numb5 = 123456789012L;
 		
-		//±âº» ½Ç¼ö°ªÀº doubleÇüÀ¸·Î ÀÎ½ÄÀÌµÈ´Ù.
-		//floatÇüÀÇ ½Ç¼ö°ªÀº Á¢¹Ì»ç f¸¦ ²À ºÙÀÎ´Ù.
+		//ê¸°ë³¸ ì‹¤ìˆ˜ê°’ì€ doubleí˜•ìœ¼ë¡œ ì¸ì‹ì´ëœë‹¤.
+		//floatí˜•ì˜ ì‹¤ìˆ˜ê°’ì€ ì ‘ë¯¸ì‚¬ fë¥¼ ê¼­ ë¶™ì¸ë‹¤.
 		float num6 = 1.234F;
 		
 		double numb7 = 1.23456;
@@ -46,11 +46,18 @@ public class º¯¼ö {
 		boolean bool1 = true;	
 		boolean bool2 = false;
 		
-		//º¯¼ö ¼º¾ðÈÄ ÃÊ±âÈ­2
-		//º¯¼öÅ¸ÀÔ º¯¼ö¸í = º¯¼ö¸í; 
+		//ë³€ìˆ˜ ì„±ì–¸í›„ ì´ˆê¸°í™”2
+		//ë³€ìˆ˜íƒ€ìž… ë³€ìˆ˜ëª… = ë³€ìˆ˜ëª…; 
 	
 		int kor1 = 100;
 		int kor2 = kor1; 
+		
+		//ì—¬ëŸ¬ ë³€ìˆ˜ë¥¼ í•œë²ˆì— ì„ ì–¸í•˜ëŠ” ë°©ë²•
+		//ë‹¨, ê°™ì€ ë³€ìˆ˜ íƒ€ìž…ë§Œ ê°€ëŠ¥
+		//ì •ìˆ˜í˜• ë³€ìˆ˜ aëŠ” 10ì„, bëŠ” 20ì„, cëŠ” 30ì„ ì €ìž¥í•˜ë„ë¡ ì„ ì–¸
+		int a = 10, b = 20, c = 30;
+		
+		
 		
 		
 	  
