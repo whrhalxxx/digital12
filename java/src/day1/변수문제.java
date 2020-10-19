@@ -28,10 +28,10 @@ public class 변수문제 {
 		
 		/* 문제 4. 다음 중 문제가 있는 변수 선언은? 2,4,5
 		 * 1. char ch1 = 'A';
-		 * 2. char ch2 = '11'; 한 자만
+		 * 2. char ch2 = '11';
 		 * 3. char ch3 = '_';
-		 * 4. char ch4 = C;   문자 앞뒤 ''이 빠짐
-		 * 5. char ch5 = "D"; ''을 사용해야함 
+		 * 4. char ch4 = C;   
+		 * 5. char ch5 = "D";  
 		 */
 		
 

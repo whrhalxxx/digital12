@@ -10,7 +10,7 @@ public class 오버플로우 {
 		//System.out.println(): 콘솔에 원하는 값을
 		//출력하는 메소드(기능)이다.
 		System.out.println(num); 		
-	    num= num +1;
+	    num= num + 1;
 		System.out.println(num); 
 	
 
