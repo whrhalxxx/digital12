@@ -63,7 +63,7 @@ public class 연산자 {
 		 int sum = kor + eng + math;
 		 double avr = sum / 3.0;
 		 
-		 System.out.println("총점 : " + sum");
+		 System.out.println("총점 : " + sum);
 		 System.out.println("평균 : " + avr);
 		 
 		 //여러 변수를 한번에 선언하는 방법
